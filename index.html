@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Document</title>   
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="script.js"></script> -->
+    
+</head>
+<body>
+    <div class="container">
+
+        <h1> The power of <span> Effects and Animation</span> in JQEURY</h1>
+
+         <p>Power of <span>JQEURY ANIMATION</span>.</p>
+
+
+    <ul>        
+        <li><img src="/Images/louis.jpg"></li>
+        <li><img src="/Images/bant.jpg"></li>       
+        <li><img src="/Images/mike .jpg"></li>
+        <li><img src="/Images/park .jpg"></li>
+        <li><img src="/Images/Satisfy.jpg"></li>        
+        <li><img src="/Images/pixabay-070.jpg"></li>
+        <li><img src="/Images/pixaba002.jpg"></li> 
+        <li><img src="/Images/MM.jpg"></li>         
+    
+    </ul>
+
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("li").click(function(){
+                $(this).slideUp(6000);
+                $(this).slideDown(6000);                
+                
+            });
+        });  
+
+
+    </script>         
+    
+</body>
+
+</html>
